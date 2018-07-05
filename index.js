@@ -27,14 +27,14 @@ function ternaryCheckCity(city) {
 function switchOnCharmFromTip(generosity) {
   let generosity;
   switch (generosity)
-  case 'light':
-    food = 'grapes';
+  case 'generous':
+    response = 'Thank you so much.';
     break;
-  case 'moderate':
-    food = 'sushi';
+  case 'not as generous':
+    response = 'Thank you.';
     break;
-  case 'famished':
-    food = 'lasagna';
+  default:
+    response = 'Bye.';
     break;
   return response
 }

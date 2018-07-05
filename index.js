@@ -23,3 +23,18 @@ function ternaryCheckCity(city) {
   }
   return response
 }
+
+function switchOnCharmFromTip(generosity) {
+  let generosity;
+  switch (generosity)
+  case 'light':
+    food = 'grapes';
+    break;
+  case 'moderate':
+    food = 'sushi';
+    break;
+  case 'famished':
+    food = 'lasagna';
+    break;
+  return response
+}
